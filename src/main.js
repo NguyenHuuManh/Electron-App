@@ -17,10 +17,10 @@ const createWindow = () => {
     },
   });
 
-  mainWindow.loadURL("https://github.com");
+  // mainWindow.loadURL("https://chat.ecomkey.asia");
 
   // and load the index.html of the app.
-  // mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
+  mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
