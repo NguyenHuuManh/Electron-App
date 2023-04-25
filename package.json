@@ -16,6 +16,10 @@
     "name": "NguyenHuuManh",
     "email": "se.huumanh@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NguyenHuuManh/Electron-App.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@electron-forge/cli": "^6.1.1",
